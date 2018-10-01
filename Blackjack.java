@@ -1,3 +1,5 @@
+// Phillip Hoang
+// 9/29/18
 import java.util.*; //comments are referring to the rules. type 'r' to get the rules to really understand the comments.
 public class Blackjack
 {
@@ -893,195 +895,195 @@ public class Blackjack
         int dScore = 0;
         for (int i = 0; i < x.size(); i++)
         {
-            if (x.get(i).equals(y[0]))
+            if (x.get(i).equals(y[0])) //if dealer has two of spades
             {
                 dScore +=2;
             }
-            if (x.get(i).equals(y[1]))
+            if (x.get(i).equals(y[1])) //if dealer has three of spades
             {
                 dScore +=3;
             }
-            if (x.get(i).equals(y[2]))
+            if (x.get(i).equals(y[2])) //if dealer has four of spades
             {
                 dScore += 4;
             }
-            if (x.get(i).equals(y[3]))
+            if (x.get(i).equals(y[3])) //if dealer has five of spades
             {
                 dScore += 5;
             }
-            if (x.get(i).equals(y[4]))
+            if (x.get(i).equals(y[4])) //if dealer has six of spades
             {
                 dScore += 6;
             }
-            if (x.get(i).equals(y[5]))
+            if (x.get(i).equals(y[5])) //if dealer has seven of spades
             {
                 dScore += 7;
             }
-            if (x.get(i).equals(y[6]))
+            if (x.get(i).equals(y[6])) //if dealer has eight of spades
             {
                 dScore += 8;
             }
-            if (x.get(i).equals(y[7]))
+            if (x.get(i).equals(y[7])) //if dealer has nine of spades
             {
                 dScore += 9;
             }
-            if (x.get(i).equals(y[8]))
+            if (x.get(i).equals(y[8])) //if dealer has 10 of spades
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[9]))
+            if (x.get(i).equals(y[9])) //if dealer has jack of spades
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[10]))
+            if (x.get(i).equals(y[10])) //if dealer has queen of spades
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[11]))
+            if (x.get(i).equals(y[11])) //if dealer has king of spades
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[13]))
+            if (x.get(i).equals(y[13])) //if dealer has two of clubs
             {
                 dScore += 2;
             }
-            if (x.get(i).equals(y[14]))
+            if (x.get(i).equals(y[14])) //if dealer has three of clubs
             {
                 dScore += 3;
             }
-            if (x.get(i).equals(y[15]))
+            if (x.get(i).equals(y[15])) //if dealer has four of clubs
             {
                 dScore += 4;
             }
-            if (x.get(i).equals(y[16]))
+            if (x.get(i).equals(y[16])) //if dealer has five of clubs
             {
                 dScore += 5;
             }
-            if (x.get(i).equals(y[17]))
+            if (x.get(i).equals(y[17])) //if dealer has six of clubs
             {
                 dScore += 6;
             }
-            if (x.get(i).equals(y[18]))
+            if (x.get(i).equals(y[18])) //if dealer has seven of clubs
             {
                 dScore += 7;
             }
-            if (x.get(i).equals(y[19]))
+            if (x.get(i).equals(y[19])) //if dealer has eight of clubs
             {
                 dScore += 8;
             }
-            if (x.get(i).equals(y[20]))
+            if (x.get(i).equals(y[20])) //if dealer has nine of clubs
             {
                 dScore += 9;
             }
-            if (x.get(i).equals(y[21]))
+            if (x.get(i).equals(y[21])) //if dealer has ten of clubs
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[22]))
+            if (x.get(i).equals(y[22])) //if dealer has jack of clubs
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[23]))
+            if (x.get(i).equals(y[23])) //if dealer has queen of clubs
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[24]))
+            if (x.get(i).equals(y[24])) //if dealer has king of clubs
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[26]))
+            if (x.get(i).equals(y[26])) //if dealer has two of diamonds
             {
                 dScore += 2;
             }
-            if (x.get(i).equals(y[27]))
+            if (x.get(i).equals(y[27])) //if dealer has three of diamonds
             {
                 dScore += 3;
             }
-            if (x.get(i).equals(y[28]))
+            if (x.get(i).equals(y[28])) //if dealer has four of diamonds
             {
                 dScore += 4;
             }
-            if (x.get(i).equals(y[29]))
+            if (x.get(i).equals(y[29])) //if dealer has five of diamonds
             {
                 dScore += 5;
             }
-            if (x.get(i).equals(y[30]))
+            if (x.get(i).equals(y[30])) //if dealer has six of diamonds
             {
                 dScore += 6;
             }
-            if (x.get(i).equals(y[31]))
+            if (x.get(i).equals(y[31])) //if dealer has seven of diamonds
             {
                 dScore += 7;
             }
-            if (x.get(i).equals(y[32]))
+            if (x.get(i).equals(y[32])) //if dealer has eight of diamonds
             {
                 dScore += 8;
             }
-            if (x.get(i).equals(y[33]))
+            if (x.get(i).equals(y[33])) //if dealer has nine of diamonds
             {
                 dScore += 9;
             }
-            if (x.get(i).equals(y[34]))
+            if (x.get(i).equals(y[34])) //if dealer has ten of diamonds
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[35]))
+            if (x.get(i).equals(y[35])) //if dealer has jack of diamonds
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[36]))
+            if (x.get(i).equals(y[36])) //if dealer has queen of diamonds
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[37]))
+            if (x.get(i).equals(y[37])) //if dealer has king of diamonds
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[39]))
+            if (x.get(i).equals(y[39])) //if dealer has two of hearts
             {
                 dScore += 2;
             }
-            if (x.get(i).equals(y[40]))
+            if (x.get(i).equals(y[40])) //if dealer has three of hearts
             {
                 dScore += 3;
             }
-            if (x.get(i).equals(y[41]))
+            if (x.get(i).equals(y[41])) //if dealer has four of hearts
             {
                 dScore += 4;
             }
-            if (x.get(i).equals(y[42]))
+            if (x.get(i).equals(y[42])) //if dealer has five of hearts
             {
                 dScore += 5;
             }
-            if (x.get(i).equals(y[43]))
+            if (x.get(i).equals(y[43])) //if dealer has six of hearts
             {
                 dScore += 6;
             }
-            if (x.get(i).equals(y[44]))
+            if (x.get(i).equals(y[44])) //if dealer has seven of hearts
             {
                 dScore += 7;
             }
-            if (x.get(i).equals(y[45]))
+            if (x.get(i).equals(y[45])) //if dealer has eight of hearts
             {
                 dScore += 8;
             }
-            if (x.get(i).equals(y[46]))
+            if (x.get(i).equals(y[46])) //if dealer has nine of hearts
             {
                 dScore += 9;
             }
-            if (x.get(i).equals(y[47]))
+            if (x.get(i).equals(y[47])) //if dealer has ten of hearts
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[48]))
+            if (x.get(i).equals(y[48])) //if dealer has jack of hearts
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[49]))
+            if (x.get(i).equals(y[49])) //if dealer has queen of hearts
             {
                 dScore += 10;
             }
-            if (x.get(i).equals(y[50]))
+            if (x.get(i).equals(y[50])) //if dealer has king of hearts
             {
                 dScore += 10;
             }
@@ -1094,19 +1096,19 @@ public class Blackjack
         int numberOfDealerAces = 0;
         for (int i = 0; i < x.size(); i++)
         {
-            if (x.get(i).equals(y[12]))
+            if (x.get(i).equals(y[12])) //if dealer has ace of spades
             {
                 numberOfDealerAces++;
             }
-            if (x.get(i).equals(y[25]))
+            if (x.get(i).equals(y[25])) //if dealer has ace of clubs
             {
                 numberOfDealerAces++;
             }
-            if (x.get(i).equals(y[38]))
+            if (x.get(i).equals(y[38])) //if dealer has ace of diamonds
             {
                 numberOfDealerAces++;
             }
-            if (x.get(i).equals(y[51]))
+            if (x.get(i).equals(y[51])) //if dealer has ace of hearts
             {
                 numberOfDealerAces++;
             }
@@ -1128,211 +1130,211 @@ public class Blackjack
         int playerHasAce = 0;
         for (int i = 0; i < x.size(); i++)
         {
-            if (x.get(i).equals(d[0]))
+            if (x.get(i).equals(d[0])) //if player has two of spades
             {
                 playerScore += 2;
             }
-            if (x.get(i).equals(d[1]))
+            if (x.get(i).equals(d[1])) //if player has three of spades
             {
                 playerScore += 3;
             }
-            if (x.get(i).equals(d[2]))
+            if (x.get(i).equals(d[2])) //if player has four of spades
             {
                 playerScore += 4;
             }
-            if (x.get(i).equals(d[3]))
+            if (x.get(i).equals(d[3])) //if player has five of spades
             {
                 playerScore += 5;
             }
-            if (x.get(i).equals(d[4]))
+            if (x.get(i).equals(d[4])) //if player has six of spades
             {
                 playerScore += 6;
             }
-            if (x.get(i).equals(d[5]))
+            if (x.get(i).equals(d[5])) //if player has seven of spades
             {
                 playerScore += 7;
             }
-            if (x.get(i).equals(d[6]))
+            if (x.get(i).equals(d[6])) //if player has eight of spades
             {
                 playerScore += 8;
             }
-            if (x.get(i).equals(d[7]))
+            if (x.get(i).equals(d[7])) //if player has nine of spades
             {
                 playerScore += 9;
             }
-            if (x.get(i).equals(d[8]))
+            if (x.get(i).equals(d[8])) //if player has ten of spades
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[9]))
+            if (x.get(i).equals(d[9])) //if player has jack of spades
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[10]))
+            if (x.get(i).equals(d[10])) //if player has queen of spades
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[11]))
+            if (x.get(i).equals(d[11])) //if player has king of spades
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[12]))
+            if (x.get(i).equals(d[12])) //if player has ace of spades
             {
                 playerHasAce++;
             }
-            if (x.get(i).equals(d[13]))
+            if (x.get(i).equals(d[13])) //if player has two of clubs
             {
                 playerScore += 2;
             }
-            if (x.get(i).equals(d[14]))
+            if (x.get(i).equals(d[14])) //if player has three of clubs
             {
                 playerScore += 3;
             }
-            if (x.get(i).equals(d[15]))
+            if (x.get(i).equals(d[15])) //if player has four of clubs
             {
                 playerScore += 4;
             }
-            if (x.get(i).equals(d[16]))
+            if (x.get(i).equals(d[16])) //if player has five of clubs
             {
                 playerScore += 5;
             }
-            if (x.get(i).equals(d[17]))
+            if (x.get(i).equals(d[17])) //if player has six of clubs
             {
                 playerScore += 6;
             }
-            if (x.get(i).equals(d[18]))
+            if (x.get(i).equals(d[18])) //if player has seven of clubs
             {
                 playerScore += 7;
             }
-            if (x.get(i).equals(d[19]))
+            if (x.get(i).equals(d[19])) //if player has eight of clubs
             {
                 playerScore += 8;
             }
-            if (x.get(i).equals(d[20]))
+            if (x.get(i).equals(d[20])) //if player has nine of clubs
             {
                 playerScore += 9;
             }
-            if (x.get(i).equals(d[21]))
+            if (x.get(i).equals(d[21])) //if player has ten of clubs
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[22]))
+            if (x.get(i).equals(d[22])) //if player has jack of clubs
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[23]))
+            if (x.get(i).equals(d[23])) //if player has queen of clubs
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[24]))
+            if (x.get(i).equals(d[24])) //if player has king of clubs
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[25]))
+            if (x.get(i).equals(d[25])) //if player has ace of clubs
             {
                 playerHasAce++;
             }
-            if (x.get(i).equals(d[26]))
+            if (x.get(i).equals(d[26])) //if player has two of diamonds
             {
                 playerScore += 2;
             }
-            if (x.get(i).equals(d[27]))
+            if (x.get(i).equals(d[27])) //if player has three of diamonds
             {
                 playerScore += 3;
             }
-            if (x.get(i).equals(d[28]))
+            if (x.get(i).equals(d[28])) //if player has four of diamonds
             {
                 playerScore += 4;
             }
-            if (x.get(i).equals(d[29]))
+            if (x.get(i).equals(d[29])) //if player has five of diamonds
             {
                 playerScore += 5;
             }
-            if (x.get(i).equals(d[30]))
+            if (x.get(i).equals(d[30])) //if player has six of diamonds
             {
                 playerScore += 6;
             }
-            if (x.get(i).equals(d[31]))
+            if (x.get(i).equals(d[31])) //if player has seven of diamonds
             {
                 playerScore += 7;
             }
-            if (x.get(i).equals(d[32]))
+            if (x.get(i).equals(d[32])) //if player has eight of diamonds
             {
                 playerScore += 8;
             }
-            if (x.get(i).equals(d[33]))
+            if (x.get(i).equals(d[33])) //if player has nine of diamonds
             {
                 playerScore += 9;
             }
-            if (x.get(i).equals(d[34]))
+            if (x.get(i).equals(d[34])) //if player has ten of diamonds
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[35]))
+            if (x.get(i).equals(d[35])) //if player has jack of diamonds
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[36]))
+            if (x.get(i).equals(d[36])) //if player has queen of diamonds
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[37]))
+            if (x.get(i).equals(d[37])) //if player has king of diamonds
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[38]))
+            if (x.get(i).equals(d[38])) //if player has ace of diamonds
             {
                 playerHasAce++;
             }
-            if (x.get(i).equals(d[39]))
+            if (x.get(i).equals(d[39])) //if player has two of hearts
             {
                 playerScore += 2;
             }
-            if (x.get(i).equals(d[40]))
+            if (x.get(i).equals(d[40])) //if player has three of hearts
             {
                 playerScore += 3;
             }
-            if (x.get(i).equals(d[41]))
+            if (x.get(i).equals(d[41])) //if player has four of hearts
             {
                 playerScore += 4;
             }
-            if (x.get(i).equals(d[42]))
+            if (x.get(i).equals(d[42])) //if player has five of hearts
             {
                 playerScore += 5;
             }
-            if (x.get(i).equals(d[43]))
+            if (x.get(i).equals(d[43])) //if player has six of hearts
             {
                 playerScore += 6;
             }
-            if (x.get(i).equals(d[44]))
+            if (x.get(i).equals(d[44])) //if player has seven of hearts
             {
                 playerScore += 7;
             }
-            if (x.get(i).equals(d[45]))
+            if (x.get(i).equals(d[45])) //if player has eight of hearts
             {
                 playerScore += 8;
             }
-            if (x.get(i).equals(d[46]))
+            if (x.get(i).equals(d[46])) //if player has nine of hearts
             {
                 playerScore += 9;
             }
-            if (x.get(i).equals(d[47]))
+            if (x.get(i).equals(d[47])) //if player has ten of hearts
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[48]))
+            if (x.get(i).equals(d[48])) //if player has jack of hearts
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[49]))
+            if (x.get(i).equals(d[49])) //if player has queen of hearts
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[50]))
+            if (x.get(i).equals(d[50])) //if player has king of hearts
             {
                 playerScore += 10;
             }
-            if (x.get(i).equals(d[51]))
+            if (x.get(i).equals(d[51])) //if player has ace of hearts
             {
                 playerHasAce++;
             }
@@ -1357,7 +1359,7 @@ public class Blackjack
                 playerBust = true;
             }
         }
-        if (playerHasAce == 3)
+        if (playerHasAce == 3) //if player has three aces in his hand
         {
             if (playerScore == 18 || playerScore == 8) //if player score is 18 with three ace values of 1 is blackjack. if player score is 8 with two ace values of 2 and one ace value of 11 is blackjack
             {
@@ -1377,7 +1379,7 @@ public class Blackjack
                 playerBust = true;
             }
         }
-        if (playerHasAce == 2)
+        if (playerHasAce == 2) //if player has two aces in his hand
         {
             if (playerScore == 9 || playerScore == 19) //if player score is 9 with one value of 1 and one ace value of 11 is blackjack. if player score is 19 with two ace values of 1 is blackjack
             {
@@ -1417,7 +1419,7 @@ public class Blackjack
                 playerBust = true;
             }
         }
-        if (playerHasAce == 0)
+        if (playerHasAce == 0) //if player has no aces in his hand
         {
             if (playerScore > 21)
             {
